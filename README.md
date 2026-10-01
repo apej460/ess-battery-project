@@ -51,7 +51,7 @@ python -m src.preprocess
 - Batch 1 의 10개 셀은 EOL(0.88Ah)에 도달하기 전에 실험이 종료되어 실제 수명을 알 수 없음 → 제외
 - Batch 2 의 VarCharge / SLOWCYCLE 실험 셀 8개, Batch 3 의 수명 미도달 셀 2개 → 제외
 - 최종 사용 셀 : Batch 1 **36개**, Batch 2 **39개**, Batch 3 **44개**
-- 센서 오류값(QD 2.88Ah, 온도 400°C 등)은 정상 범위 밖이면 NaN 처리 후 셀 내부 보간
+- 센서 오류값(QD 2.88Ah, 충전 시간 3,934분 등)은 정상 범위 밖이면 NaN 처리 후 셀 내부 보간
 
 ### Cycle Life 분포
 - 배치마다 분포가 크게 다르다. 중앙값 Batch 1 **772** / Batch 2 **472** / Batch 3 **1006**
