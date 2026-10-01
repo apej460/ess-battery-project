@@ -31,8 +31,8 @@ ESS 배터리의 교체 비용은 CAPEX 의 30~40% 를 차지한다. 이 프로�
 
 ## 환경 설정
 ```bash
-git clone <repository-url>
-cd Data_mini_project
+git clone https://github.com/apej460/ess-battery-project.git
+cd ess-battery-project
 
 python3.12 -m venv .venv
 source .venv/bin/activate
