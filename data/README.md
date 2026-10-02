@@ -1,6 +1,6 @@
 # Data
 
-원본 데이터는 용량 문제(배치당 2~3GB)로 저장소에 포함하지 않는다.
+원본 데이터는 용량 문제(배치당 2 ~ 3GB)로 저장소에 포함하지 않는다.
 
 ## 다운로드
 
@@ -25,7 +25,7 @@ python -m src.preprocess
 
 - `cells.parquet` : 셀 단위 메타데이터 (batch, 충전 정책, cycle_life, 제외 사유)
 - `summary.parquet` : 사이클 단위 요약값 (QD, QC, IR, 온도, 충전 시간)
-- `curves.npz` : 초기 1~100 사이클의 Qdlin / Tdlin 곡선
+- `curves.npz` : 초기 1 ~ 100 사이클의 Qdlin / Tdlin 곡선
 
 ## 셀 제외 기준
 
