@@ -97,8 +97,9 @@ def derived_dq_features(curves, cell_id):
 
 def build_features(cells, summary, curves):
     """셀 단위 피처 테이블 (index = cell_id)."""
-    s = clean_summary(summary)
     lo, hi = EARLY_CYCLES
+    # 보간에 cycle 100 이후 값이 쓰이지 않도록, 초기 구간만 잘라서 정제한다
+    s = clean_summary(summary[summary["cycle"] <= hi])
     early = s[s["cycle"].between(lo, hi)]
 
     rows = []
