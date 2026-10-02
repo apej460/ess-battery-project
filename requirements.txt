@@ -1,13 +1,11 @@
-numpy
-pandas
-scipy
-h5py
-matplotlib
-seaborn
-scikit-learn
-xgboost
-lightgbm
-jupyter
-ipykernel
-pyarrow
-mat73
+# Python 3.11
+numpy==2.4.6
+pandas==3.0.6
+scipy==1.17.1
+h5py==3.16.0
+pyarrow==25.0.1
+matplotlib==3.11.2
+scikit-learn==1.9.1
+xgboost==3.2.0
+jupyter==1.1.1
+ipykernel==7.4.0
